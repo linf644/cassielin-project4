@@ -3,22 +3,157 @@
     src: url(/assets/BradleyHand-Bold.woff) format("woff");
 }
 .container {
+    padding: 0;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     font-family: "BradleyHand-Bold";
 }
+.postit-note {
+    display: flex;
+    width: 350px;
+    margin-top: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-wrapper {
+    position: relative;
+    margin-left: -1rem;
+}
 .text-wrapper {
-    margin: 5rem;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    width: 80%;
+    margin: 0;
 }
 .question {
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 .answer {
-    font-size: 4rem;
-    margin-top: 3rem;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+#answerId {
+    width: 80%;
 }
 #input {
+    margin-top: 1rem;
+    width: 70%;
+    border: 0;
     border-bottom: 1px solid black;
     outline: none;
     background-color: transparent;
+} 
+/* .option-wrapper {
+    font-size: 1.5rem;
+}
+#books {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+#textbooks {
+    position: absolute;
+    bottom: 230px;
+    right: 180px;
+}
+#passport {
+    position: absolute;
+    top: 160px;
+    left: 140px;
+}
+#key {
+    position: absolute;
+    top: 60px;
+    right: 100px;
+}
+#glasses {
+    position: absolute;
+    bottom: 160px;
+    left: 210px;
+}
+#files {
+    position: absolute;
+    bottom: 120px;
+    left: 30px;
+}
+#photos {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+#hair-band {
+    position: absolute;
+    left: 200px;
+    bottom: 60px;
+}
+#power-bank {
+    position: absolute;
+    bottom: 670px;
+    right: 60px;
+} */
+@media only screen and (min-width:450px){
+    .postit-note {
+        width: 700px;
+        margin-top: 3rem;
+    }
+    .main-wrapper {
+        margin-left: 5rem;
+    }
+    .text-wrapper {
+        top: 10rem;
+        left: 27rem;
+        width: 650px;
+        margin: 0;
+    }
+    .question {
+        font-size: 2rem;
+    }
+    .answer {
+        font-size: 4rem;
+        margin-top: 3.5rem;
+    }
+    #input {
+        margin-top: 2rem;
+        border-bottom: 2px solid black;
+    }  
+    /* .option-wrapper {
+        font-size: 2.5rem;
+    }
+    #books {
+        top: 150px;
+        left: 100px;
+    }
+    #textbooks {
+        bottom: 200px;
+        right: 160px;
+    }
+    #passport {
+        top: 320px;
+        left: 230px;
+    }
+    #key {
+        top: 120px;
+        right: 170px;
+    }
+    #glasses {
+        bottom: 370px;
+        left: 1250px;
+    }
+    #files {
+        bottom: 80px;
+        left: 80px;
+    }
+    #photos {
+        top: 240px;
+        left: 1100px;
+    }
+    #hair-band {
+        bottom: 250px;
+        left: 150px;
+    }
+    #power-bank {
+        bottom: 40px;
+        right: 60px;
+    } */
 }

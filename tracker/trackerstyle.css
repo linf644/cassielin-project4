@@ -1,0 +1,50 @@
+body{
+    text-align:center;
+    margin:auto;
+}
+
+div {
+    border:1px solid rgba(0,0,0,.2);
+}
+#input {
+    margin-top: 1rem;
+    width: 20%;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    background-color: transparent;
+} 
+.pixel:hover{
+    background-color: black;
+}
+
+.tracker{
+    margin: auto;
+    display: grid;
+    width: 240px;
+    height: 560px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+
+}
+
+@media only screen and (min-width:450px){
+    #input {
+        margin-top: 1rem;
+        width: 20%;
+        border: 0;
+        border-bottom: 2px solid black;
+        outline: none;
+        background-color: transparent;
+    } 
+    .grid-wrapper {
+        margin-left: 100px;
+    }
+    .tracker {
+        margin:auto;
+        width: 1030px;
+        height: 360px;
+        grid-template-columns: repeat(14, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
