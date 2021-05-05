@@ -2,10 +2,13 @@
     font-family: "BradleyHand-Bold";
     src: url(/assets/BradleyHand-Bold.woff) format("woff");
 }
+body {
+    padding: 0;
+}
 .container {
     padding: 0;
     width: 100vw;
-    height: auto;
+    height: 100vh;
     font-family: "BradleyHand-Bold";
 }
 .postit-note {

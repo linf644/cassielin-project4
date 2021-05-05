@@ -3,6 +3,7 @@ let inputElement = document.querySelector("#input");
 // define the output
 let answerElement = document.querySelector("#answerId");
 
+
 inputElement.addEventListener("keydown", function(event){
     console.log(inputElement.value);
 
@@ -27,6 +28,7 @@ inputElement.addEventListener("keydown", function(event){
 		}
 		else if(items.charAt(0) == "e"){
 			result+=" inside the sideboard.";
+
 		}
 		else if(items.charAt(0) == "f"){
 			result+=" on the shoe rack.";
