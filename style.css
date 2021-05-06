@@ -1,6 +1,6 @@
 @font-face {
     font-family: "BradleyHand-Bold";
-    src: url(/assets/BradleyHand-Bold.woff) format("woff");
+    src: url(./assets/BradleyHand-Bold.woff) format("woff");
 }
 body {
     padding: 0;
